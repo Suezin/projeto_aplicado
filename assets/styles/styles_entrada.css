@@ -1,0 +1,67 @@
+
+header{
+    height: 10em;
+    margin-top: -1.3em;
+    width: 100%;
+    background-color: #A59D84;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.entrar-box {
+    
+    height: 25em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    
+}
+.entrar {
+    height: 100%;
+    width: 30em;
+    background-color: #C1BAA1 ;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+.entrar label {
+    padding: 0.5em;
+    font-size: 2em;
+}
+.entrar input{
+    height: 2em;
+    width: 24rem;
+    border-radius: 1em;
+}
+.entrar a{
+    padding: 0.2em;
+    height: 2em;
+    width: 3em;
+}
+.entrar button {
+    font-size: 1.3em;
+    background-color: #ECEBDE;
+    border: none;
+    border-radius: 1em;
+    transition: 0.3s ease-in-out ;
+}
+.entrar button:hover{
+    background-color: #D7D3BF;
+}
+
+.ranking {
+    height: 15rem;
+    width: 12em;
+    background-color: #ECEBDE;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    border-radius: 1em;
+}
+.ranking h1{
+    font-size: 1.5em;
+}

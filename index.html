@@ -1,32 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/styles/styles.css">
+    <link rel="stylesheet" href="/assets/styles/styles_entrada.css">
     <title>Jogo Da Memória</title>
     <script src="/script/script.js"></script>
 
 </head>
+
 <body>
-    <header> 
+    <header>
         <h1>Jogo Da Memória</h1>
     </header>
-
-    <div>
-        <label for="name">Nome</label>
-        <input type="text">
-        <label for="levels">Níveis</label>
+    
+    <div class="entrar-box">
+        <div class="entrar">
+            <label for="name">Nome</label>
+            <input type="text">
+            <label for="levels">Níveis</label>
+            
+            <a href="/niveis/nivel_facil.html"><button name="nivel_facil">Fácil</button></a>
+            <a href="/niveis/nivel_medio.html"><button name="nivel_medio">Médio</button></a>
+            <a href="/niveis/nivel_dificil.html"><button name="nivel_dificil">Difícil</button></a>
+        </div>
+        <aside class="ranking">
+            <h1>Ranking</h1>
         
-        <a href="/niveis/nivel_facil.html"><button name="nivel_facil" >Fácil</button></a>
-        <a href="/niveis/nivel_medio.html"><button name="nivel_medio">Médio</button></a>
-        <a href="/niveis/nivel_dificil.html"><button name="nivel_dificil">Difícil</button></a>
-         
+        </aside>
     </div>
 
-    <aside>
-
-
-    </aside>
 </body>
+
 </html>
